@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>xyz</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form Challenge</title>
+  </head>
+  <body>
+    <h1>User Registration Form</h1>
+    <form>
+      First Name:<input type="text" /><br /><br />
+      Last Name:<input type="text" /><br /><br />
+      Password:<input type="password" /><br /><br />
+      Bio:<textarea rows="4"cols="40"></textarea><br /><br />
+      <fieldset>
+        <legend>Gender:</legend>
+
+        <input type="radio" />
+        <label>Male</label><br />
+
+        <input type="radio" />
+        <label>Female</label><br />
+
+        <input type="radio" />
+        <label>Other</label><br />
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend>Interests:</legend>
+
+        <input type="checkbox" />
+        <label>Music</label><br />
+
+        <input type="checkbox" />
+        <label>Sports</label><br />
+
+        <input type="checkbox" />
+        <label>Reading</label><br />
+      </fieldset>
+      <br /><br />
+      Country:<select>
+        <option >United States</option>
+        <option >Canada</option>
+        <option >Australia</option>
+        <option >Others</option>
+      </select><br /><br />
+      Preferred Colors:<select  multiple size="4">
+        <option >Red</option>
+        <option >Blue</option>
+        <option >Green</option>
+        <option >Yellow</option>
+      </select><br />
+      Profile picture:<input type="file" /><br /><br />
+      Birthdate:<input type="date" /><br /><br />
+      Email:<input type="email" /><br /><br />
+      Website:<input type="URL" /><br /><br />
+      Search:<input type="search" /><br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
